@@ -10,7 +10,7 @@ export default function ComingSoon() {
         <span className="text-white font-medium">January, 2026</span>.
         <br />
         You can join our{" "}
-        <a href="https://discord.gg/m2u2NvXMGK" className="text-entry hover:text-entry-hover underline transition"> Discord community</a>{" "}
+        <a href="/discord" className="text-entry hover:text-entry-hover underline transition"> Discord community</a>{" "}
         for more updates.
       </p>
 
@@ -20,8 +20,3 @@ export default function ComingSoon() {
     </main>
   )
 }
-
-/*
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(254,240,138,0.08)_0%,transparent_60%)]" />
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.04)_1px,transparent_1px)] bg-[size:60px_60px]" />
-*/
