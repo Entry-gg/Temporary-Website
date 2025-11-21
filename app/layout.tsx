@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -31,6 +31,10 @@ export const metadata: Metadata = {
     locale: 'en_US',
     type: 'website',
   },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#ffd900"
 };
 
 export default function RootLayout({
